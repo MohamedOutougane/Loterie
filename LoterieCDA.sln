@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoterieCDA", "LoterieCDA\LoterieCDA.csproj", "{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A1A4E0A-3FCD-4E71-83BC-D594C9FF3EAE}
+	EndGlobalSection
+EndGlobal
