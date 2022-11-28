@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoterieCDA", "LoterieCDA\LoterieCDA.csproj", "{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoterieCDA", "LoterieCDA\LoterieCDA.csproj", "{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{04212E09-70AA-4649-B5F2-F9144960B181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6AC01E7-7208-4489-8FC4-FF2B52B1D7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04212E09-70AA-4649-B5F2-F9144960B181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04212E09-70AA-4649-B5F2-F9144960B181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04212E09-70AA-4649-B5F2-F9144960B181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04212E09-70AA-4649-B5F2-F9144960B181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
