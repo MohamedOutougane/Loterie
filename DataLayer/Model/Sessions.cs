@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Model
 {
-    internal class Sessions
+    public class Sessions
     {
         [Key]
         public int Id { get; set; }

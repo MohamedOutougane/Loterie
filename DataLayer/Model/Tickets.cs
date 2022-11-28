@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Model
 {
-    internal class Tickets
+    public class Tickets
     {
         [Key]
         public string shortGUID { get; set; }
