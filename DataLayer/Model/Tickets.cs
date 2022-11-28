@@ -12,6 +12,6 @@ namespace DataLayer.Model
         [Key]
         public string shortGUID { get; set; }
         public string Combination { get; set; }
-        public int idSessions { get; set; }
+        public Sessions Sessions { get; set; }
     }
 }
