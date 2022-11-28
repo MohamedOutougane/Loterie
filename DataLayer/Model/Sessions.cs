@@ -10,9 +10,12 @@ namespace DataLayer.Model
     internal class Sessions
     {
         [Key]
-        public int idSession { get; set; }
+        public int Id { get; set; }
         public string Draw { get; set; }
         public int Jackpot { get; set; }
         public DateTime Date { get; set; }
+
+        // stranger keys
+        public List<Tickets> Tickets { get; set; } 
     }
 }
