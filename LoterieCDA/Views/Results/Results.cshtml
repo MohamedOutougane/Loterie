@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Results";
+}
+<main>
+    <div class="guid-wrapper">
+        <div class="message-wrapper">
+            Entrez votre code personnel et vérifiez vos gains !
+        </div>
+        <div class="shortGUID-wrapper">
+            <input type="text" name="shortGUID" id="shortGUID">
+        </div>
+    </div>
+
+    <div class="result-wrapper">
+        <div class="result-draw-wrapper">
+            <div class="title-draw">Résultat du tirage</div>
+            <div class="game-draw">
+                <div class="grid-button"><input type="button" value="1" id="1" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="2" id="2" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="3" id="3" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="4" id="4" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="5" id="5" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="6" id="6" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="7" id="7" onclick="jouer(this.value)"></div>
+            </div>
+        </div>
+
+        <div class="result-game-wrapper">
+            <div class="title-game">Votre tirage</div>
+            <div class="game-game">
+                <div class="grid-button"><input type="button" value="1" id="1" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="2" id="2" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="3" id="3" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="4" id="4" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="5" id="5" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="6" id="6" onclick="jouer(this.value)"></div>
+                <div class="grid-button"><input type="button" value="7" id="7" onclick="jouer(this.value)"></div>
+            </div>
+        </div>
+
+        <div class="result-win-wrapper">
+            <div class="title-win">Votre gain</div>
+            <div class="game-win">
+                <div class="sum-win">rang 3 : 250€</div>
+            </div>
+        </div>
+    </div>
+</main>
