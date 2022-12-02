@@ -10,25 +10,12 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LoterieCDA</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="header-wrapper">
+            <div class="header-infos">
+                <div class="header-title"> PROCHAIN TIRAGE </div>
+                <div class="header-timer">03 : 45</div>
             </div>
-        </nav>
+        </div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -36,9 +23,32 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - LoterieCDA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer>
+        <div class="footer-menu">
+            <div class="footer-button-wrapper">
+                <a asp-controller="Home" asp-action="Index">
+                    <div class="footer-button-cercleExt">
+                        <div class="footer-button-img"></div>
+                    </div>
+                </a>
+                <div class="footer-button-name"> ACCUEIL </div>
+            </div>
+            <div class="footer-button-wrapper">
+                <a asp-controller="Results" asp-action="Results">
+                    <div class="footer-button-cercleExt">
+                        <div class="footer-button-img"></div>
+                    </div>
+                </a>
+                <div class="footer-button-name"> RESULTAT </div>
+            </div>
+            <div class="footer-button-wrapper">
+                <a asp-controller="Rules" asp-action="Rules">
+                    <div class="footer-button-cercleExt">
+                        <div class="footer-button-img"></div>
+                    </div>
+                </a>
+                <div class="footer-button-name"> REGLES </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
