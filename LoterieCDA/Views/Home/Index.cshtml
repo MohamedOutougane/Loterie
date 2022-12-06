@@ -9,69 +9,15 @@
     </div>
 
     <div class="grid-wrapper">
-        <div class="grid-line">
-            <div class="grid-button">1</div>
-            <div class="grid-button">2</div>
-            <div class="grid-button">3</div>
-            <div class="grid-button">4</div>
-            <div class="grid-button">5</div>
-            <div class="grid-button">6</div>
-            <div class="grid-button">7</div>
-        </div>
-        <div class="grid-line">
-            <div class="grid-button">8</div>
-            <div class="grid-button">9</div>
-            <div class="grid-button">10</div>
-            <div class="grid-button">11</div>
-            <div class="grid-button">12</div>
-            <div class="grid-button">13</div>
-            <div class="grid-button">14</div>
-        </div>
-        <div class="grid-line">
-            <div class="grid-button">15</div>
-            <div class="grid-button">16</div>
-            <div class="grid-button">17</div>
-            <div class="grid-button">18</div>
-            <div class="grid-button">19</div>
-            <div class="grid-button">20</div>
-            <div class="grid-button">21</div>
-        </div>
-        <div class="grid-line">
-            <div class="grid-button">22</div>
-            <div class="grid-button">23</div>
-            <div class="grid-button">24</div>
-            <div class="grid-button">25</div>
-            <div class="grid-button">26</div>
-            <div class="grid-button">27</div>
-            <div class="grid-button">28</div>
-        </div>
-        <div class="grid-line">
-            <div class="grid-button">29</div>
-            <div class="grid-button">30</div>
-            <div class="grid-button">31</div>
-            <div class="grid-button">32</div>
-            <div class="grid-button">33</div>
-            <div class="grid-button">34</div>
-            <div class="grid-button">35</div>
-        </div>
-        <div class="grid-line">
-            <div class="grid-button">36</div>
-            <div class="grid-button">37</div>
-            <div class="grid-button">38</div>
-            <div class="grid-button">39</div>
-            <div class="grid-button">40</div>
-            <div class="grid-button">41</div>
-            <div class="grid-button">42</div>
-        </div>
-        <div class="grid-line">
-            <div class="grid-button">43</div>
-            <div class="grid-button">44</div>
-            <div class="grid-button">45</div>
-            <div class="grid-button">46</div>
-            <div class="grid-button">47</div>
-            <div class="grid-button">48</div>
-            <div class="grid-button">49</div>
-        </div>
+        @for (int i = 0; i < 7; i++)
+        {
+            <div class="grid-line">
+                @for (int x = 1; x <= 7; x++)
+                {
+                    <div class="grid-button">@(7 * i + x)</div>
+                }
+            </div>
+        }
     </div>
 
     <div class="button-wrapper">
